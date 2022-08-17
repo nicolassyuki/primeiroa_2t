@@ -51,12 +51,39 @@ float: left;
    color: black;
  }
  #passat {
-     width:40%;
+     width:10%;
      height: 200px;
      background: gray;
+     left: 0;
      width: 90%;
      margin: 20px;
      border-color: black;
      border-width: 20px;
      border-style: double;
+     padding: 20px;
+     display: flex;
+     justify-content:end
+     ;
+ }
+ #passat:hover{
+   width: 72%;
+ }
+ #passat {
+   width: 50%;
+ }
+ .rodape {
+   width: 100%;
+   height: 50px;
+   background-color: black;
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   font-size: large;
+   display: flex;
+   justify-content: center;
+   color: cornsilk;
+ }
+ .conteudo {
+   position: relative;
+   top: 45px;
  }
