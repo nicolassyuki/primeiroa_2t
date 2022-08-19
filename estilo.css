@@ -75,7 +75,7 @@ float: left;
    width: 100%;
    height: 50px;
    background-color: black;
-   position: absolute;
+   position:fixed;
    bottom: 10px;
    left: 0;
    font-size: large;
@@ -85,5 +85,5 @@ float: left;
  }
  .conteudo {
    position: relative;
-   top: 45px;
+   top: 25px;
  }
